@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+
+.font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.headingsall{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn{
+    padding: 20px 26px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* main style */
+header{
+    width: 100%;
+    height: 646px;
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.container-tittle{
+    width: 525px;
+    height: 226px;
+    margin: 120px 100px 845px 230px;
+    text-align: end;
+}
+
+.container-tittle h2{
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: end;
+    margin-bottom: 24px;
+}
+
+.container-tittle p{
+    color: white;
+    font-size: 16px;
+    text-align: end;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.man{
+    margin-top: 132px;
+    width: 100%;
+    /* background-color: black; */
+    margin-bottom: 130px;
+}
+
+.man section{
+    width: 80%;
+    /* background-color: green; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.man section .leftman{
+    width: 560px;
+    height: 700px;
+    background-image: url(images/person.png);
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rightheading{
+    width: 416px;
+    /* background-color: blue; */
+}
+
+.rightheading h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.rightheading p{
+    margin-bottom: 16px;
+    line-height: 26px;
+    color: #444;
+}
+
+.rightheading .list p{
+    margin-bottom: 10px;
+}
+
+.fa-check{
+    color: #16D887;
+}
+
+.skill{
+    height: 600px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill main{
+    width: 80%;
+    height: 80%;
+    /* background-color: black; */
+    text-align: center
+}
+
+
+.cards{
+    margin-top: 50px;
+    width: 100%;
+    height: 202px;
+    /* background-color: green; */
+    display: flex;
+    gap: 2px;
+}
+
+.card{
+    width: 270px;
+    height: 202px;
+    /* background-color: rgb(248, 212, 212); */
+}
+
+.logo{
+    width: 92px;
+    height: 92px;
+    /* background-color: rgb(56, 20, 214); */
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+
+.card h2{
+    margin-bottom: 16px;
+}
+
+.handbanner{
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+
+    background-image:
+        url("images/gradient1.png"),  
+        url("images/gradient2.png"),
+        url("images/watch.png");       
+
+    background-repeat: no-repeat;
+
+    background-position:
+        left,
+        center,
+        bottom center;
+
+    background-size:
+        cover,
+        cover,
+        100% 100%;
+        display: flex;
+        align-items: center;
+       padding: 50px;
+}
+
+.handbanner div{
+    width: 460px;
+    height: 180px;
+    /* background-color: rgb(255, 255, 255); */
+    text-align: left;
+}
+
+.handbanner div h2{
+     font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-top: 130px;
+    height: 577px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .mainfotter{
+    width: 80%;
+    height: 317px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftfooter{
+    width: 485px;
+    height: 317px;
+    /* background-color: rgb(184, 31, 31); */
+}
+
+.leftfooter h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.leftfooter .there{
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.social img{
+    margin-right: 17px;
+}
+
+.email{
+    margin-top: 24px;
+     color: white;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.email2{
+     margin-top: 16px;
+     color: white;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.rightfooter{
+    width: 325px;
+    height: 204px;
+    /* background-color: green; */
+}
+
+.rightfooter h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.inputbox{
+    padding: 22px 21px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.btnfot{
+    padding: 20px 26px;
+    background-color: #005FAC;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
